@@ -1,0 +1,122 @@
+body,div,h1,h2{margin:0}
+
+h1,h2{
+  width:60%;
+  color:#313131;
+  font-family:georgia; 
+  margin-left: 20%;
+  text-align:right;
+}
+
+h1{
+  text-align:left;
+  background-color:#313131;
+  color:white
+}
+
+p{font-size:1em;}
+
+/*For formatting suggestion sentence on advice page only*/
+#suggestion{
+  width:60%;
+  text-align:left;
+  color:#313131;
+  font-family:georgia;
+  background-color:#DCDCDC;
+  margin-right: auto;
+  margin-left: auto
+}
+
+#viz{text-align: center;}
+#myDiv{
+  width:60%;
+  text-align:left;
+  margin-right: auto;
+  margin-left: auto
+}
+img{
+  max-width:100%;
+  text-align:center;
+  margin-right: auto;
+  margin-left: auto  
+}
+
+#findings{
+  width:60%;
+  text-align:left;
+  font-size:1.3em;
+  color:#313131;
+  font-family:georgia;
+  background-color: #f1f1f1;
+  margin-right: auto;
+  margin-left: auto
+  }
+
+#instructions{
+  width:60%;
+  text-align:left;
+  font-size:1em;
+  color:#313131;
+  font-family:georgia;
+  background-color:#DCDCDC;
+  margin-right: auto;
+  margin-left: auto
+  }
+#details {
+  width:60%;
+  text-align:left;
+  margin-right: auto;
+  margin-left: auto
+}
+
+
+
+#footer {
+  text-align:center;
+  margin-bottom:2em;
+  font-family:Comic Sans MS;
+    font-size:0.8em
+}
+
+.nav{
+  list-style-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/971531/rsz.png');
+   width: 10%;
+  margin: auto;
+  font-size:1.2em
+}          
+
+ul.vert {
+  margin-top:0%;
+  padding-top:0;
+  margin-left:0%;
+  list-style-type: none;
+  font-size:1.2em;
+  font-family:georgia;
+  padding: 0;
+  width: 10%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 90%;
+  overflow: auto;
+}
+
+.vert li a {  
+    display: block;
+    color: #000;
+    padding: 0.5em 0.2em;
+    text-decoration: none;
+}
+.vert li{text-align:center}
+
+/*Use vertical nav bar to indicate reader which page he/she is on */
+.vert li.active {
+  font-size:1em;
+    background-color: #B3CFDD;
+    color: white;
+}
+
+/*To create hover on effects for vertical nav bar*/
+.vert li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
