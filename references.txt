@@ -1,0 +1,41 @@
+References:
+1. Code and help
+? Inspiration from gabrifc's visualization,'Clay feet of giant'
+
+? Plotly.js, a very beginner-friendly graphing library
+
+? W3school, for doubts and demos on html tags, javascript syntax, css style
+
+2.Useful tools
+? PubMed, the data source
+
+? Fred's data scraping blog
+
+? URL request editor
+
+? Rentrez, integrated R library for PubMed data scraping
+
+3.Researches and reports on AD
+? Solanezumab:
+http://www.alzforum.org/therapeutics/solanezumab
+
+http://www.nature.com/news/how-to-defeat-dementia-1.20949
+
+? Aducanumab
+
+? 2016 Mar review on 3 antibody drugs:solanezumab, crenezumab, Aducanumab
+
+? Insulin therapy:
+http://www.alzforum.org/therapeutics/nasal-insulin
+
+https://www.ncbi.nlm.nih.gov/pubmed/12467491
+
+https://clinicaltrials.gov/ct2/show/NCT01767909
+4. Others
+? Initial page pic source
+
+? Background pic source
+
+? Life style suggestions for AD patients
+
+? Befunky, online pic blurring tool

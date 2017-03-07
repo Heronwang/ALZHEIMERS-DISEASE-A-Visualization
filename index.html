@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Combat Alzheimer's Disease</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <head>
+  　<meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"
+></script>
+</head>
+<body>
+  <ul class="vert">
+      <li  id="0" onclick="intr();step=0;cngClass(this)"><a>Intro</a></li>
+      <li id="1" onclick="viz(1);step=1;cngClass(this)"><a>Trends</a></li>
+      <li id="2" onclick="viz(2);step=2;cngClass(this)"><a>Journals</a></li>
+      <li id="3" onclick="viz(3);step=3;cngClass(this)"><a>Papers</a></li>
+      <li id="4" onclick="viz(4);step=4;cngClass(this)"><a>Recent</a></li>
+      <li id="5" onclick="viz(5);step=5;cngClass(this)"><a>Advice</a></li>
+    </ul>
+  <header>
+    <h1>Data Come to Rescue</h1>
+    <h2>Trends and impactful researches on Alzheimer's Disease<br><br></h2>
+  </header>
+  <main> 
+    <p id="suggestion"></p>
+    <div id="viz">
+      <div id="myDiv">
+    </div>
+    <p id="instructions"></p>  
+    <p id="findings"></p>  
+    <p id="details"></p>
+    <ul class="nav">
+      <li><a class="next" href="#text-story" onclick="nextStep()">CONTINUE</a></li>
+    </ul>
+</main>
+<p id="footer"><br><br><br><br><br><br>Heron Wang. Jan 2017</p>
+</body>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>
