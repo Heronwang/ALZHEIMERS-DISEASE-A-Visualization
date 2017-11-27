@@ -4,10 +4,10 @@ Create a data visualization from a data set that tells a story or highlights tre
 [Initial Visualization](http://codepen.io/Heronwang/pen/ygvZNj)  
 [Final Visualization](http://codepen.io/Heronwang/pen/pRaGvL)  
 
-##Summary  
+## Summary  
 Young researchers often have difficulty in balancing the implementation of their own ideas and updating the knowledge of their field. As newbies we quite often get lost in endless sea of literature. But with very limited time we have as PhD trainees, how can we distinguish the milestone work from mediocre ones, and find the worthwhile piece of work to read? Here I shall share my own experience of using data techniques to find impactful researches and form ideas of Alzheimer's Disease(AD).  
 
-##Design 
+## Design 
 I am interested in finding trends, choosing  impactful journals and spoting breakthrough studies.And among all research papers I am especially interested in clinical trials since they are most likely to produce treatments and cures in future.  After downloaded and processed all clinical articles published in last 4 decades on Alzheimer's Disease from PubMed, I drawed a outline of my story with 6 component graphs:  
 
 >**1. Introduction page** - explaning my initiatives in starting this visualization and providing general knowledge about Alzheimer's Disease  
@@ -23,13 +23,13 @@ I am interested in finding trends, choosing  impactful journals and spoting brea
 >**6. Summary page** - summarising the project, give insights and relevent infomation to readers. (In final version I added references section)  
 
 
-##Feedback  
-###Feedback(1). Friend who working as PhD student in cell biology:  
+## Feedback  
+### Feedback(1). Friend who working as PhD student in cell biology:  
 Great job. Love it. But  the color of few can be made a bit more bright. They looks a bit too subtle and confusing for readers. Even if it's sequential color, bright colors might be better. The black and gray and the subtle changes are difficult to figure out.  
 
 >**revision:** I changed the color theme from gray to default color setting with decreased the opacity to make visualizations clear and clean .  
 
-###Feedback(2). Friend who is a software engineer and graduate of DAND:   
+### Feedback(2). Friend who is a software engineer and graduate of DAND:   
 Really impressive visualization. Here is my feedback  
 1. What do you notice in the visualization?  
 Visualiztion shows the research on Alzheimers disease. The metrics are based on the number of clinical trials conducted, number of papers published, top cited journals.  
@@ -55,14 +55,14 @@ Overall a really great project :) Well done.
 
 >**revision:** I added a navigation on the left of visualization to ease reading and correctify the instruction infomation.  
 
-###Feedback(3). Friend who is an App developer:  
+### Feedback(3). Friend who is an App developer:  
 Got a few things to point out.  
 The graph about world wide trends and impactful research, with data on clinical trials and all related studies is spot on! It was a well-chosen graph that shows the increasing numbers and the overall trend over the past few years. It explains your point very well and the graph is adding to your narrative.  
 The next graph is about Top 10 cited journals and shows two factors in a scatter diagram: average citations per paper and journal impact factor. A scatter diagram is only appropriate when you are trying to show a relation (directly proportional or inversely proportional or any trend) between the two factors plotted along X and Y axes. Are you sure that you are trying to show that higher the journal impact factor, te more citations they have per paper? That is, are you trying to say that journals with a higher impact factor cite more often? In my opinion, given this graph, there is a link between the two. That is, I can conclude that journals with higher impact factor indeed cite more papers. However, the concluding line says that they are great resources for following up on further news. So you need to decide what your narrative is.  
 
 >**revision:** Considering that my initial narratives aren't explicit enough and it leads to misunderstanding here, I rewrote the narratives to make story more clear and well transitioned.  
 
-##Resources  
+## Resources  
 **1. Code and help**  
 • [Inspiration from gabrifc's visualization,'Clay feet of giant'](https://github.com/gabrifc/Udacity-Data-Analyst-Nanodegree/blob/master/P6%20-%20Data%20Visualization)  
 • [Plotly.js, a very beginner-friendly graphing library](https://plot.ly/javascript/ )  
